@@ -24,7 +24,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://hramoney.xyz/showadv.php"
+        "https://hramoney.xyz/showadv.php*"
       ],
       "js": [
         "src/bg/jquery-3.4.1.min.js",
